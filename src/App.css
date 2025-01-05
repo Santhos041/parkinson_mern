@@ -1,0 +1,93 @@
+
+
+.App {
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the background image */
+  min-height: 100vh; /* Make the container full height of the viewport */
+  display: flex; /* Optional: Center the form vertically */
+  justify-content: center; /* Optional: Center the form horizontally */
+  align-items: center; /* Optional: Center the form vertically */
+  position: fixed;
+  overflow-y: auto;
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-atmospheric-medical-medical-symbol-gradient-poster-image_202320.jpg");
+}
+.input-field {
+  margin-bottom: 10px;
+  margin-right:5px;
+  margin-left: 5px;
+  padding: 8px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  height:45px; /* Ensures padding and border are included in the width */
+}
+.input-field:focus {
+  outline:none; /* Remove default focus outline */
+  border:3px solid #000000; /* Change border color when focused */
+}
+.input-field:hover{
+  background-color: #b4e5ec;
+}
+.btn{
+  width:10%;
+  height:45px;
+  border:2px ;
+  border-radius: 5px;
+  font-weight:600;
+  margin-left:45%;
+  margin-top:2%;
+  background-color: #edea23;
+}
+.btn:hover{
+  background-color: #fffb00;
+  
+}
+.output-textarea{
+  margin-top:3%;
+  margin-left:40%;
+  width:20%;
+  border-radius: 5px;
+  border-width: 2px;
+}
+/* Your existing CSS styles */
+
+@media screen and (max-width: 768px) {
+  /* Your existing media query styles */
+}
+
+@media screen and (max-width: 480px) {
+  .input-field {
+    width: 80%;
+  }
+
+  .btn {
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 5%;
+  }
+
+  .output-textarea {
+    margin-left: 10%;
+    width: 80%;
+    margin-top: 5%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .input-field {
+    width: 90%;
+  }
+
+  .btn {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 5%;
+  }
+
+  .output-textarea {
+    margin-left: 5%;
+    width: 90%;
+    margin-top: 5%;
+  }
+}
